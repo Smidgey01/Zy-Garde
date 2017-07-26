@@ -1,0 +1,19 @@
+group 'Smidgey'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'application'
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    compile 'com.github.austinv11:Discord4J:2.8.4'
+    compile 'org.slf4j:slf4j-log4j12:1.7.25'
+    compile 'com.github.Discord4J-Addons:Commands4J:1.1.0'
+}

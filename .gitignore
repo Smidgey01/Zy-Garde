@@ -1,0 +1,9 @@
+.idea
+.gradle
+artifacts
+build
+modules
+out
+token.txt
+swears.txt
+ZyBot.iml
